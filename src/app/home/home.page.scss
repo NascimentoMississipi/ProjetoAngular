@@ -1,27 +1,44 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
+*{
   margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#container a {
-  text-decoration: none;
+// .fundo{
+//   background-image: url();
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+// }
+
+// .logo{
+//   background-image: url();
+// }
+
+.direita{
+  background-image: url(https://cdn.leroymerlin.com.br/products/papel_de_parede_liso_preto_com_glitter_1567181465_3f20_300x300.jpg);
+  background-position: center;
+  width: 100%;
+}
+
+.esquerda{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.botaoInicio{
+  --background: #6F2626;
+  --border-radius: 15px;
+  width: 340px;
+  height: 50px;
+  margin: 40px;
+  margin-bottom: 10px;
+
 }
